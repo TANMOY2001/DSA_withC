@@ -16,6 +16,7 @@ bool findTwoSum(int arr[], int size, int target, int *leftIdx, int *rightIdx) {
             // Sum too small: move left pointer to increase sum
             left++;
         } else {
+            printf("Sum too large: move right pointer to decrease sum\n");
             // Sum too large: move right pointer to decrease sum
             right--;
         }
