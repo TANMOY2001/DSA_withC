@@ -8,7 +8,6 @@ int main(){
         if(arr[i]<arr[j]){
             k=arr[i];
             i=j;
-        
         }
         else if(arr[i]>arr[j]){
             if(k<arr[j]){
