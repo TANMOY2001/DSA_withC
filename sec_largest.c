@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    int i=0,j,k=0;
-    int arr[]={4,3,1,2};
+    
+    int arr[]={1,-4,-3,-2};
+    int i=0,j;
+    unsigned int k=0;
     int n=sizeof(arr)/sizeof(arr[0]);
 
     for(j=1;j<n;j++){
@@ -16,5 +18,5 @@ int main(){
         }
     
     }
-    printf("out for The second largest element is %d",k);
+    printf("out for The second largest element is %i",k);
 }
