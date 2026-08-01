@@ -11,9 +11,12 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+            //"options": {
+            //    "cwd": "C:/MinGW/bin"
+            //},
             "options": {
-                "cwd": "C:/MinGW/bin"
-            },
+            "cwd": "${fileDirname}"
+            },  
             "problemMatcher": [
                 "$gcc"
             ],
