@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 // int main(){
     // char name[6]="gopal";
@@ -32,21 +33,44 @@
     // }
 //     return 0;
 // palindrome check
-int main(){
-char a[30];
-printf("Enter Text To Check Palindrome or Not: ");
-scanf("%s",a);
-int i=0;
-int j=strlen(a)-1;
-while (i<j)
-{
-    if (a[i] != a[j])
-    {
-        printf("!!! %s is Not Palindrome...\n",a);
-        return 0;
-    }
-    i++,j--;
-}
-printf("%s is Palindrome...\n",a);
-return 0;
-}
+// int main(){
+// char a[30];
+// printf("Enter Text To Check Palindrome or Not: ");
+// scanf("%s",a);
+// int i=0;
+// int j=strlen(a)-1;
+// while (i<j)
+// {
+//     if (a[i] != a[j])
+//     {
+//         printf("!!! %s is Not Palindrome...\n",a);
+//         return 0;
+//     }
+//     i++,j--;
+// }
+// printf("%s is Palindrome...\n",a);
+// return 0;
+// }
+
+// String Concatination (USER DEFINED)
+// int main(){
+//     char s1[20];
+//     char s2[20];
+//     int len, len2;
+//     printf("Enter the first string: ");
+//     scanf("%s",s1);
+//     printf("Enter the second string: ");
+//     scanf("%s",s2);
+//     len=strlen(s1);
+//     len2=strlen(s2);
+//     // main logical part of concatination
+//     for(int i=0;i<=len2;i++){
+//         s1[len]=s2[i];
+//         len++;
+//     }
+//     printf("The d is: %d",s1);
+//     printf("The Concatinated String is: %s",s1);
+
+
+//     return 0;
+// }
