@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(){
+// int main(){
     // char name[6]="gopal";
     // printf("The name is:  %s\n",name);
     
@@ -32,6 +32,7 @@ int main(){
     // }
 //     return 0;
 // palindrome check
+int main(){
 char a[30];
 printf("Enter Text To Check Palindrome or Not: ");
 scanf("%s",a);
@@ -41,12 +42,11 @@ while (i<j)
 {
     if (a[i] != a[j])
     {
-        printf("!!! %c is Not Palindrome...\n",a);
+        printf("!!! %s is Not Palindrome...\n",a);
         return 0;
     }
-    i++,j--; 
+    i++,j--;
 }
 printf("%s is Palindrome...\n",a);
-
-
+return 0;
 }
