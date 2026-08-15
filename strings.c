@@ -108,3 +108,21 @@
 //         printf("The Strings Are Equal\n");
 //     }
 // }
+
+// reverse of a string
+// int main(){
+//     char s1[20];
+//     printf("Enter the string: ");
+//     gets(s1);
+//     int i=0,j=strlen(s1)-1;
+//     while(i<j){
+//         // printf("%c",s1[j]);
+//         char temp=s1[i];
+//         s1[i]=s1[j];
+//         s1[j]=temp;
+//         i++;
+//         j--;
+//     }
+//     printf("The reversed string is: %s",s1);        
+//     return 0;
+// }
