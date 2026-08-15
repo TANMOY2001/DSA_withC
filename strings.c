@@ -2,8 +2,8 @@
 #include<conio.h>
 #include<string.h>
 // int main(){
-    // char name[6]="gopal";
-    // printf("The name is:  %s\n",name);
+    // char n[6]="gopal";
+    // printf("The name is:  %s\n",n);
     
     // char arr[6]={'g','o','p','a','l','\0'};
     // printf("The array is:  %c\n",arr[1]);
@@ -11,7 +11,7 @@
     // char name[10];
     // int i,count=0;
     // printf("Enter your name: ");
-    // gets(name);
+    // gets(name);// Takes input string with spaces(but memory overflow problem it has).
     // printf("The name is: %s\n",name);
     // //using predefinned function strlen() to calculate length of string
     // int length = strlen(name);
@@ -55,7 +55,7 @@
 // String Concatination (USER DEFINED)
 // int main(){
 //     char s1[20];
-//     char s2[20];
+//     char s2[10];
 //     int len, len2;
 //     printf("Enter the first string: ");
 //     scanf("%s",s1);
@@ -68,9 +68,43 @@
 //         s1[len]=s2[i];
 //         len++;
 //     }
-//     printf("The d is: %d",s1);
+//     printf("The length is: %d",len);
 //     printf("The Concatinated String is: %s",s1);
-
-
 //     return 0;
+// }
+// int main(){
+//     char s1[20];
+//     int count=0, i=0;
+//     printf("Enter the string: ");
+//     gets(s1);
+//     while(s1[i]!='\0'){
+//         count++;
+//         i++;
+//     }
+//     printf("The length of the string is: %d\n",count);
+//     printf("The string is: %s",s1);
+//     return 0;
+// }
+
+// String Compare
+// int main(){
+//     char s1[20], s2[20];
+//     printf("Enter the first string: ");
+//     gets(s1);
+//     printf("Enter the second string: ");
+//     gets(s2);
+//     int len=strlen(s1);
+//     int len1=strlen(s2);
+//     if(len != len1){
+//         printf("The Strings Are Not Equal\n");
+//     }
+//     else{
+//         for(int i=0;i<len;i++){
+//             if(s1[i] != s2[i]){
+//                 printf("The Strings Are Not Equal\n");
+//                 return 0;
+//             }
+//         }
+//         printf("The Strings Are Equal\n");
+//     }
 // }
