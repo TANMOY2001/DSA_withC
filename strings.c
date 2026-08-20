@@ -126,3 +126,20 @@
 //     printf("The reversed string is: %s",s1);        
 //     return 0;
 // }
+
+// Convert String Upper_case to Lower_case
+
+int main(){
+    char a[20];
+    printf("Enter Text: ");
+    gets(a);
+    int i , len = strlen(a);
+    for ( i = 0; i < len; i++)
+    {
+        if(a[i] >='A' && a[i]<='Z'){
+            a[i]=a[i]+32;
+        }   /* code */
+    }
+    printf("\n%s",a);
+
+}
